@@ -32,8 +32,8 @@ namespace HashTableProblems
             hash.Add("16", "paranoid");
             hash.Add("17", "avoidable");
             hash.Add("18", "situation");
-            string hash11 = hash.Get("18");
-            Console.WriteLine("18th index value: " + hash11);
+            string hash11 = hash.Get("11");
+            Console.WriteLine("11th index value: " + hash11);
 
         }
     }
