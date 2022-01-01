@@ -32,8 +32,17 @@ namespace HashTableProblems
             hash.Add("16", "paranoid");
             hash.Add("17", "avoidable");
             hash.Add("18", "situation");
+ UC2_Find_Frequency_Of_Phrase
             string hash11 = hash.Get("11");
             Console.WriteLine("11th index value: " + hash11);
+          
+            string hash18 = hash.Get("18");
+            Console.WriteLine("18th index value: " + hash18);
+
+            hash.Remove("17");
+            string hash17 = hash.Get("17");
+            Console.WriteLine("18th index value: " + hash17);
+ master
 
         }
     }
